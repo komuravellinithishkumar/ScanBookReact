@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.b {
+  color: red;
+}
