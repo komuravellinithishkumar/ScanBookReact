@@ -31,6 +31,7 @@ function BookDetailsPage() {
       const bookDetailsData = await response.json();
       setBookDetails(bookDetailsData);
       setNotes(bookDetailsData.BookNotes);
+      setIsChecked(bookDetailsData.BookFinished);
     } catch (error) {
       console.log(error);
     }
@@ -153,7 +154,7 @@ function BookDetailsPage() {
       body: JSON.stringify({
         email: email.toString(),
         ISBN: isbn.toString(),
-        isChecked: c,
+        finished: c,
       }),
     };
 

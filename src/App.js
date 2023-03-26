@@ -8,6 +8,7 @@ import Signup from "./Components/Signup";
 import BookDetailsPage from "./Components/BookDetails";
 
 function App() {
+  document.title = "ScanBuy";
   return (
     <div className="box">
       <Routes>
